@@ -1,7 +1,7 @@
 {
-  "name": "SKSBV Perinthalmanna Zone",
+  "name": "SKSBVPMNA Range",
   "short_name": "SKSBV",
-  "description": "SKSBV Perinthalmanna Zone - മദ്രസ ആക്റ്റിവിറ്റി പോർട്ടൽ",
+  "description": "SKSBV Perinthalmanna Range - മദ്രസ ആക്റ്റിവിറ്റി പോർട്ടൽ",
   "start_url": "./index.html",
   "display": "standalone",
   "orientation": "portrait-primary",
