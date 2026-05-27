@@ -649,7 +649,7 @@
         /* Main Navigation bar */
         .navbar {
             height: 72px;
-            padding: 0 24px;
+            padding: 4px 24px 0 24px; /* Added 4px top padding to perfectly balance the absolute 4px top gradient line */
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -666,14 +666,15 @@
         }
 
         .brand-title {
-            font-family: var(--font-heading);
+            font-family: 'Outfit', 'Inter', sans-serif; /* Use clean modern Latin fonts instead of Malayalam font for perfect vertical metrics */
             font-weight: 800;
             font-size: 1.4rem;
             color: var(--primary);
-            line-height: 1.1;
+            line-height: 1.2;
         }
 
         .brand-sub {
+            font-family: 'Outfit', 'Inter', sans-serif; /* Use clean modern Latin fonts instead of Malayalam font for perfect vertical metrics */
             font-size: 0.65rem;
             letter-spacing: 1px;
             color: var(--text-muted);
@@ -1779,7 +1780,7 @@
             }
 
             .navbar {
-                padding: 0 16px;
+                padding: 4px 16px 0 16px; /* Added 4px top padding to perfectly balance the absolute 4px top gradient line on mobile */
             }
 
             .main-content {
